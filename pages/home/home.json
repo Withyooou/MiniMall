@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "购物街",
+  "usingComponents": {
+    "y-swiper": "/components/y-swiper/y-swiper",
+    "y-goods": "/components/y-goods/y-goods",
+    "y-back-top": "/components/y-back-top/y-back-top",
+    "y-tab-control": "/components/y-tab-control/y-tab-control",
+    "y-recommend": "/pages/home/childCpns/y-recommend/y-recommend",
+    "y-feature": "/pages/home/childCpns/y-feature/y-feature"
+  }
+}

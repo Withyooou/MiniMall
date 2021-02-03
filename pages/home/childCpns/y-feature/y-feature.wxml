@@ -1,0 +1,4 @@
+<!--pages/home/childCpns/y-feature/y-feature.wxml-->
+<view class='feature'>
+  <image src="/assets/images/home/recommend_bg.jpg" mode="widthFix"/>
+</view>

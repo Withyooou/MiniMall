@@ -1,0 +1,27 @@
+<!--pages/home/home.wxml-->
+<view class="home">
+  <!-- hidden没法直接作用在自定义组件上,因此套上一层view -->
+  <view hidden='{{!showTabControl}}'>
+    <y-tab-control class='tab-control-temp' 
+                titles="{{titles}}" 
+                bind:tabclick="handleTabClick"/>
+  </view>
+
+  <scroll-view class='content' 
+              scroll-y 
+              scroll-with-animation
+              bindscrolltolower="loadMore"
+              scroll-top="{{topPosition}}"
+              bindscroll="scrollPosition">
+    <y-swiper images="{{banners}}"/>
+    <y-recommend recommends="{{recommends}}" bind:imageLoad="onImageLoad"/>
+    <y-feature/>
+    <y-tab-control class='tab-control'
+                  titles="{{titles}}" 
+                  bind:tabclick="handleTabClick"/>
+                  
+    <y-goods goodsList="{{goods[currentType].list}}"/>
+  </scroll-view> 
+  
+  <y-back-top bind:tap="onBackTop" wx:if="{{showBackTop}}"/>
+</view>

@@ -1,0 +1,19 @@
+<!--pages/detail/detail.wxml-->
+<view class="detail">
+  <scroll-view class='content'
+               scroll-y
+               scroll-with-animation
+               scroll-top="{{scrollyTo}}"
+               bindscroll="scrollPosition">
+    <y-swiper class='d-swiper' images="{{topImages}}"/>
+    <y-base-info baseInfo="{{baseInfo}}"/>
+    <y-shop-info shopInfo="{{shopInfo}}"/>
+    <y-detail-info detailInfo="{{detailInfo}}"/>
+    <y-param-info paramInfo="{{paramInfo}}"/> 
+    <y-comment-info commentInfo="{{commentInfo}}"/>
+    <y-recommend-info recommends="{{recommends}}"/>
+  </scroll-view>
+
+  <y-back-top bind:tap="onBackTop" wx:if="{{showBackTop}}"/>
+  <y-bottom-bar bind:addcart="onAddCart"/>
+</view>

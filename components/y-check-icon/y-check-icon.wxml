@@ -1,0 +1,5 @@
+<!--components/y-check-icon/y-check-icon.wxml-->
+<icon class='check-icon' 
+      type='success' 
+      size='22'
+      color='{{isChecked ? "#ff5777": "#aaa"}}'/>

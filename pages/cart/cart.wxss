@@ -1,0 +1,17 @@
+/* pages/cart/cart.wxss */
+.cart {
+  height: 100%;
+}
+.cart-list {
+  height: calc(100% - 88rpx);
+  position: relative;
+}
+.empty {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+.empty image {
+  width: 400rpx;
+}

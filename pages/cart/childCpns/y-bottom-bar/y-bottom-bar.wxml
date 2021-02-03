@@ -1,0 +1,16 @@
+<!--pages/cart/childCpns/y-bottom-bar/y-bottom-bar.wxml-->
+<view class='bottom-bar'>
+  <view class='check-box' bindtap="checkAll">
+    <y-check-icon isChecked="{{selected}}"/>
+    <view style="margin-left: 8rpx">全选</view>
+  </view>
+  <view class='counter'>
+    <text>总计: ¥{{price}}</text>
+    <view class="clear" bindtap="clearAll">
+      <image src="/assets/images/cart/sweep.png" style="width: 40rpx"
+            class="clearImg" mode="widthFix"/>
+      <text>清空</text>
+    </view>
+  </view>
+  <view class='payment'>去计算({{counter}})</view>
+</view>
