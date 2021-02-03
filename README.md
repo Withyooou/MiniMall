@@ -7,7 +7,6 @@
 
 <img src="https://raw.githubusercontent.com/Withyooou/img-folder/main/MiniMall1.png" width="25%"/><img src="https://raw.githubusercontent.com/Withyooou/img-folder/main/MiniMall2.png" width="25%"/><img src="https://raw.githubusercontent.com/Withyooou/img-folder/main/MiniMall3.png" width="25%"/><img src="https://raw.githubusercontent.com/Withyooou/img-folder/main/MiniMall4.png" width="25%"/><img src="https://raw.githubusercontent.com/Withyooou/img-folder/main/MiniMall5.png" width="25%"/><img src="https://raw.githubusercontent.com/Withyooou/img-folder/main/MiniMall6.png" width="25%"/><img src="https://raw.githubusercontent.com/Withyooou/img-folder/main/MiniMall7.png" width="25%"/><img src="https://raw.githubusercontent.com/Withyooou/img-folder/main/MiniMall8.png" width="25%"/>
 
-
-
-- （注）最新接口地址请加coderwhy老师的微信获取
+## 项目的使用
+- 将service/config.js中的baseURL改为最新的接口地址即可
 
